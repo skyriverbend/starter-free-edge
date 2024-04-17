@@ -1,6 +1,9 @@
 import { HomeScreen } from 'app/features/home/screen'
 import Head from 'next/head'
 
+export const preferredRegion = ['cle1']
+export const runtime = 'experimental-edge'
+
 export default function Page() {
   return (
     <>
